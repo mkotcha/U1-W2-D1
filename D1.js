@@ -94,6 +94,9 @@ let name2 = "John";
 console.log("name1 = ", name1);
 console.log("name2 = ", name2);
 
+// console.log(name1 === name2);
+// console.log(name1 === name2.toLowerCase());
+
 console.log(name1 + " = " + name2 + " ? -> " + (name1 === name2 ? "vero" : "falso"));
 
 console.log(name1 + " = " + name2.toLowerCase() + " ? -> " + (name1 === name2.toLowerCase() ? "vero" : "falso"));
